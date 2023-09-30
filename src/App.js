@@ -3,7 +3,7 @@ import { Box } from '@mui/material';
 
 import { Navbar, Feed, VideoDetail, ChannelDetail, SearchFeed } from './components';
 
-const App = () => {
+const App = () => (
   <BrowserRouter>
     <Box sx={{ backgroundColor: '#000'}}>
       <Navbar />
@@ -15,6 +15,6 @@ const App = () => {
       </Routes>
     </Box>
   </BrowserRouter>
-}
+)
 
 export default App
