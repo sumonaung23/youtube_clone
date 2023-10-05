@@ -8,7 +8,7 @@ const options = {
     params: {
         part: 'snippet',
         videoId: 'M7FIvfx5J10',
-        maxResults: '80'
+        maxResults: '50'
     },
     headers: {
         /* 'X-RapidAPI-Key': 'c8a42e4734mshd8a3fa3018a4094p1ff31cjsndf003e485402', */
