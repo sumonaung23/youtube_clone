@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Box, Stack, Typography } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 import { Videos } from './';
 import { fetchFromAPI } from '../utils/FetchFromAPI';
 import { useParams } from 'react-router-dom';
